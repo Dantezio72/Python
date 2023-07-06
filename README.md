@@ -36,3 +36,24 @@ lista = [2,3,5];
 
 print(calculo(potenciaCubo, lista));
 ```
+# Clases 
+```python
+class Empleado: 
+    def __init__(self, nombre, salario):
+        self.nombre = nombre
+        self.salario = salario
+    def saludar(self):
+        return f"Hola, mi nombre es {self.nombre}"
+```
+## Atributo 
+```python
+class Alumno:
+    tipo = "Alumno"
+    
+```
+## Herencia 
+```python
+class ClaseB(ClaseA):
+    def __init__(self):
+        super().__init__(self)
+```
